@@ -1,0 +1,30 @@
+{
+  "name": "product-management-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Product Management App using Node.js, Express, and MySQL",
+  "main": "server.cjs",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.cjs",
+    "dev": "nodemon server.cjs"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "rest-api",
+    "product-management"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.3",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
