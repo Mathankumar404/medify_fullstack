@@ -84,13 +84,10 @@ PORT=5000
 ## Project Structure
 
 ```
-├── server/                 # Backend code
-│   ├── config/            # Database configuration
-│   ├── controllers/       # API controllers
-│   ├── models/           # Data models
-│   ├── routes/           # API routes
-│   ├── middleware/       # Express middleware
-│   └── server.js         # Main server file
+├── Backend/                 # Backend code
+│   ├── server.cjs/            # Database configuration
+│   ├── package.json/
+|   ├── package-lock.json/
 ├── src/                  # Frontend code
 │   ├── components/       # React components
 │   ├── hooks/           # Custom hooks
